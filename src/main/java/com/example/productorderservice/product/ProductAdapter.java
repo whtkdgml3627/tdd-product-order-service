@@ -1,5 +1,7 @@
 package com.example.productorderservice.product;
 
+import org.springframework.stereotype.Component;
+
 /**
  * Version     : 1.0
  * 패키지명    　: com.example.productorderservice.product
@@ -11,6 +13,7 @@ package com.example.productorderservice.product;
  * 수정자    　　: *
  * 수정내역    　: *
  */
+@Component
 class ProductAdapter implements ProductPort {
 	private final ProductRepository productRepository;
 
